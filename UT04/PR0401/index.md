@@ -1,8 +1,8 @@
-# Practica 1
+# Practica 1 - El lenguaje de programación Python
 
 ### Ejercicios:
 
-1. 
+1.
 
 ```python
 
@@ -10,7 +10,7 @@ print("hola mundo")
 
 ```
 
-2. 
+2.
 
 ```python
 
@@ -18,7 +18,7 @@ print("hola mundo")
 
 ```
 
-3. 
+3.
 
 ```python
 
@@ -26,7 +26,7 @@ print("hola mundo")
 
 ```
 
-4. 
+4.
 
 ```python
 
@@ -34,7 +34,7 @@ print("hola mundo")
 
 ```
 
-5. 
+5.
 
 ```python
 
@@ -42,7 +42,7 @@ print("hola mundo")
 
 ```
 
-6. 
+6.
 
 ```python
 
@@ -50,7 +50,7 @@ print("hola mundo")
 
 
 ```
-7. 
+7.
 
 ```python
 
