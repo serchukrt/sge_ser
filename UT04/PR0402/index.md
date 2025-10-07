@@ -44,28 +44,46 @@ else:
 
 ```python
 
-print("hello world")
+a = input("Introduzca frase: ")
+grup = a.split(" ")
+print(len(grup)," palabras")
 
 ```
 5.
 
 ```python
 
-print("hello world")
+cadena = input("Ingrese cadena: ")
+caracteresVistos = set()
+nuevaCadena = ""
+for caracter in cadena:
+    if caracter not in caracteresVistos:
+        nuevaCadena += caracter
+        caracteresVistos.add(caracter)
+print ("Cadena sin duplicados: ", nuevaCadena)
 
 ```
 6.
 
 ```python
 
-print("hello world")
+a = input("Introduce una cadena: ")
+nuevaCadena = ""
+for i in a:
+    if i == i.upper():
+        nuevaCadena += i.lower()
+    else:
+        nuevaCadena += i.upper()
+print (nuevaCadena)
 
 ```
 7.
 
 ```python
 
-print("hello world")
+a = input("Escribe una cadena: ")
+i = int(input("Escribe numero: "))
+print((a[i:]) + (a[:i]))
 
 ```
 8.
