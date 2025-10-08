@@ -28,6 +28,7 @@ a = input("Ingrese palabra: ")
 print (a[::-1])
 
 ```
+
 3.
 
 ```python
@@ -40,6 +41,7 @@ else:
     print("No es un palindromo")
 
 ```
+
 4.
 
 ```python
@@ -49,6 +51,7 @@ grup = a.split(" ")
 print(len(grup)," palabras")
 
 ```
+
 5.
 
 ```python
@@ -63,6 +66,7 @@ for caracter in cadena:
 print ("Cadena sin duplicados: ", nuevaCadena)
 
 ```
+
 6.
 
 ```python
@@ -77,6 +81,7 @@ for i in a:
 print (nuevaCadena)
 
 ```
+
 7.
 
 ```python
@@ -86,20 +91,20 @@ i = int(input("Escribe numero: "))
 print((a[i:]) + (a[:i]))
 
 ```
+
 8.
 
 ```python
 
-print("hello world")
+a = input("Introrduce la primera palabra: ")
+b = input("Introduce la segunda palabra: ")
+if sorted(a) == sorted(b):
+    print("Si, " , a, " y ", b, " son anagramas")
+else:
+    print("No, " , a, " y ", b, " no son anagramas")
 
 ```
-9.
 
-```python
-
-print("hello world")
-
-```
 10.
 
 ```python
@@ -107,6 +112,7 @@ print("hello world")
 print("hello world")
 
 ```
+
 11.
 
 ```python
@@ -114,7 +120,16 @@ print("hello world")
 print("hello world")
 
 ```
+
 12.
+
+```python
+
+print("hello world")
+
+```
+
+13.
 
 ```python
 
