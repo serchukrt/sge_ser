@@ -7,7 +7,9 @@
 
 ```python
 
-print("hello world")
+nombres.sort()
+nombres.reverse()
+print(nombres)
 
 ```
 

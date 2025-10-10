@@ -109,7 +109,12 @@ else:
 
 ```python
 
-print("hello world")
+a = input("Introduce una cadena: ")
+sinalpha = ""
+for i in a:
+    if i.isalpha() == True:
+        sinalpha += i
+print(sinalpha)
 
 ```
 
@@ -117,7 +122,10 @@ print("hello world")
 
 ```python
 
-print("hello world")
+a = input("Introduce una frase: ")
+palabras = a.replace("-", " ").split()
+res = palabras[0].lower() + "".join(letra.capitalize() for letra in palabras[1:])
+print(res)
 
 ```
 
