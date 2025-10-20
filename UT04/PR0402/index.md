@@ -133,7 +133,19 @@ print(res)
 
 ```python
 
-print("hello world")
+s = input("Introduce una cadena: ")
+resultado = []
+conteo = 1
+
+for i in range(1, len(s)):
+     if s[i] == s[i - 1]:
+        conteo += 1
+     else:
+        resultado.append(s[i - 1] + str(conteo))
+        conteo = 1
+
+resultado.append(s[-1] + str(conteo))
+print("".join(resultado))
 
 ```
 
@@ -141,6 +153,19 @@ print("hello world")
 
 ```python
 
-print("hello world")
+s = input("Introduce una cadena codificada RLE: ")
+rs = ""
+i = 0
+while i < len(s):
+    char = s[i]
+    i += 1
+    num = ""
+
+    while i < len(s) and s[i].isdigit():
+        num += s[i]
+        i += 1
+    rs += char * int(num) if num else char
+
+print(rs)
 
 ```
