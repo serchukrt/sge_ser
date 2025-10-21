@@ -17,7 +17,8 @@ print(nombres)
 
 ```python
 
-print("hello world")
+contador = sum(1 for nombre in nombres if nombre[0].upper() in ("A", "Á"))
+print(contador)
 
 ```
 
@@ -25,7 +26,13 @@ print("hello world")
 
 ```python
 
-print("hello world")
+nombre = input("Escribe un nombre: ").strip().capitalize()
+
+if nombre in nombres:
+    posicion = nombres.index(nombre)
+    print("El nombre ", nombre, " esta en la posición", posicion)
+else:
+    print("El nombre introducido no se encuentra dentro de la lista")
 
 ```
 
@@ -33,7 +40,15 @@ print("hello world")
 
 ```python
 
-print("hello world")
+nombre = input("Introduce tu nombre: ").strip().capitalize()
+
+if nombre in nombres:
+    posicion = nombres.index(nombre)
+    anteriores = nombres[:posicion]
+    print("Los nombres que están antes del tuyo son: ")
+    print(", ".join(anteriores))
+else:
+    print("El nombre introducido no se encuentra dentro de la lista")
 
 ```
 

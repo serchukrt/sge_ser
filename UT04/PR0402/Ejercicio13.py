@@ -12,3 +12,4 @@ while i < len(s):
     rs += char * int(num) if num else char
 
 print(rs)
+
