@@ -56,7 +56,9 @@ else:
 
 ```python
 
-print("hello world")
+num = int(input("Escriba un numero: "))
+coinciden = [nombre for nombre in nombres if len(nombre) == num]
+print("Hay ", len(coinciden))
 
 ```
 
@@ -64,7 +66,8 @@ print("hello world")
 
 ```python
 
-print("hello world")
+coinciden = [nombre for nombre in nombres if len(nombre) <= 4]
+print("Hay ", coinciden)
 
 ```
 
@@ -72,7 +75,20 @@ print("hello world")
 
 ```python
 
-print("hello world")
+texto = "".join(nombres).lower()
+texto = texto.replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+
+a = texto.count("a")
+e = texto.count("e")
+i = texto.count("i")
+o = texto.count("o")
+u = texto.count("u")
+
+print("a:", a)
+print("e:", e)
+print("i:", i)
+print("o:", o)
+print("u:", u)
 
 ```
 
@@ -80,7 +96,13 @@ print("hello world")
 
 ```python
 
-print("hello world")
+import string
+
+texto = "".join(nombres).lower()
+texto = texto.replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+
+for letra in string.ascii_lowercase:
+    print(f"{letra}: {texto.count(letra)}")
 
 ```
 
