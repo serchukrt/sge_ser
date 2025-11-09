@@ -23,7 +23,6 @@ i = texto.count("i")
 o = texto.count("o")
 u = texto.count("u")
 
-
 print("a:", a)
 print("e:", e)
 print("i:", i)

@@ -3,3 +3,4 @@
 - [PR0401 - Ejercicios básicos de Python](./PR0401/index.md)
 - [PR0402 - Ejercicios con cadenas](./PR0402/index.md)
 - [PR0403 - Ejercicios con listas](./PR0403/index.md)
+- [PR0404 - Ejercicios con diccionarios](./PR0404/index.md)
