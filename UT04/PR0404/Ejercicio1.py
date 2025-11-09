@@ -9,6 +9,6 @@ fruta_buscada = input("Introduce el nombre de la fruta: ").lower()
 
 if fruta_buscada in frutas_precios:
     precio = frutas_precios[fruta_buscada]
-    print(f"El precio de la {fruta_buscada.capitalize()} es: ${precio:.2f}")
+    print(f"El precio de la {fruta_buscada.capitalize()} es: €{precio:.2f}")
 else:
-     print(f"Lo sentimos, la fruta '{fruta_buscada.capitalize()}' no está disponible.")
+     print(f"La fruta '{fruta_buscada.capitalize()}' no está disponible.")
