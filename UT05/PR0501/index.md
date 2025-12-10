@@ -1,12 +1,13 @@
 # Practica 1 - Creación del primer módulo en Odoo
 
 1. Accedemos al contenedor de Oooo
+   
  ```
  docker exec -it 4492 bash
 
  ```
 
-2.  Entramos a los addons
+1.  Entramos a los addons
 
  ```
  cd /mnt/extra-addons/
