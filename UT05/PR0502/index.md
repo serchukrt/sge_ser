@@ -135,3 +135,5 @@ access_gestion_biblioteca_book,gestion_biblioteca.book,model_gestion_biblioteca_
 ```
 
 6. Resultados en Odoo
+
+![](./fotos/foto1.png)
