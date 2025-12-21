@@ -1,4 +1,4 @@
-# Practica 1 - Campos del modelo
+# Practica 2 - Campos relacionales
 
 ### Ejercicio:
 
